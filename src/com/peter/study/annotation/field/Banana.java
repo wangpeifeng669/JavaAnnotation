@@ -8,7 +8,7 @@ import com.peter.study.annotation.field.FruitColor.Color;
  * @author peter_wang
  * @create-time 2015-10-20 下午2:24:36
  */
-public class Banana {
+public class Banana{
 	@FruitName(getFruitName = "香蕉")
 	private String fruitName;
 	@FruitColor(getFruitColor = Color.YELLOW)
